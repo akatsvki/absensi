@@ -103,7 +103,7 @@ function sendToGoogleSheets(type) {
                    (type === 'out' && now.getHours() < 16);
 
     // Ganti URL_APPS_SCRIPT dengan URL Google Apps Script Anda
-    const scriptUrl = "URL_APPS_SCRIPT_DISINI";
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbxn_VCd1nF-MDZuk5OSmSQZ5jVgG7NrdQ4AufgUYJJ6eT_4ZGo5P9EXEIVffK7og6L2/exec";
     
     fetch(scriptUrl, {
         method: 'POST',
